@@ -18,7 +18,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #18BC9C;
+  color: #fce602;
 }
 h1,
 h2,
@@ -103,7 +103,7 @@ header .intro-text .skills {
   }
 }
 .navbar-custom {
-  background: #2C3E50;
+  background: #a3a9b4;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -125,7 +125,7 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #18BC9C;
+  color: #fce602;
 }
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
@@ -133,13 +133,13 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li.active a {
   color: white;
-  background: #18BC9C;
+  background: #fce602;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   color: white;
-  background: #18BC9C;
+  background: #fce602;
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -149,9 +149,9 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #18BC9C;
+  background-color: #fce602;
   color: white;
-  border-color: #18BC9C;
+  border-color: #fce602;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -181,7 +181,7 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #18BC9C;
+  background: #fce602;
   color: white;
 }
 @media (max-width: 767px) {
@@ -192,18 +192,18 @@ section.success {
     padding-top: 75px;
   }
 }
-#portfolio .portfolio-item {
+#venta .portfolio-item {
   margin: 0 0 15px;
   right: 0;
 }
-#portfolio .portfolio-item .portfolio-link {
+#venta .portfolio-item .portfolio-link {
   display: block;
   position: relative;
   max-width: 400px;
   margin: 0 auto;
 }
-#portfolio .portfolio-item .portfolio-link .caption {
-  background: rgba(24, 188, 156, 0.9);
+#venta .portfolio-item .portfolio-link .caption {
+  background: #fce602;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -212,10 +212,10 @@ section.success {
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
 }
-#portfolio .portfolio-item .portfolio-link .caption:hover {
+#venta .portfolio-item .portfolio-link .caption:hover {
   opacity: 1;
 }
-#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+#venta .portfolio-item .portfolio-link .caption .caption-content {
   position: absolute;
   width: 100%;
   height: 20px;
@@ -225,18 +225,118 @@ section.success {
   margin-top: -12px;
   color: white;
 }
-#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+#venta .portfolio-item .portfolio-link .caption .caption-content i {
   margin-top: -12px;
 }
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+#venta .portfolio-item .portfolio-link .caption .caption-content h3,
+#venta .portfolio-item .portfolio-link .caption .caption-content h4 {
   margin: 0;
 }
-#portfolio * {
+#venta * {
   z-index: 2;
 }
 @media (min-width: 767px) {
-  #portfolio .portfolio-item {
+  #venta .portfolio-item {
+    margin: 0 0 30px;
+  }
+}
+
+
+
+#renta .portfolio-item {
+  margin: 0 0 15px;
+  right: 0;
+}
+#renta .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+#renta .portfolio-item .portfolio-link .caption {
+  background: #fce602;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+#renta .portfolio-item .portfolio-link .caption:hover {
+  opacity: 1;
+}
+#renta .portfolio-item .portfolio-link .caption .caption-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+}
+#renta .portfolio-item .portfolio-link .caption .caption-content i {
+  margin-top: -12px;
+}
+#renta .portfolio-item .portfolio-link .caption .caption-content h3,
+#renta .portfolio-item .portfolio-link .caption .caption-content h4 {
+  margin: 0;
+}
+#renta * {
+  z-index: 2;
+}
+@media (min-width: 767px) {
+  #renta .portfolio-item {
+    margin: 0 0 30px;
+  }
+}
+
+#desarrollo .portfolio-item {
+  margin: 0 0 15px;
+  right: 0;
+}
+#desarrollo .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+#desarrollo .portfolio-item .portfolio-link .caption {
+  background: #fce602;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+#desarrollo .portfolio-item .portfolio-link .caption:hover {
+  opacity: 1;
+}
+#desarrollo .portfolio-item .portfolio-link .caption .caption-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+}
+#desarrollo .portfolio-item .portfolio-link .caption .caption-content i {
+  margin-top: -12px;
+}
+#desarrollo .portfolio-item .portfolio-link .caption .caption-content h3,
+#desarrollo .portfolio-item .portfolio-link .caption .caption-content h4 {
+  margin: 0;
+}
+#desarrollo * {
+  z-index: 2;
+}
+@media (min-width: 767px) {
+  #desarrollo .portfolio-item {
     margin: 0 0 30px;
   }
 }
@@ -297,7 +397,7 @@ footer h3 {
 }
 footer .footer-above {
   padding-top: 50px;
-  background-color: #2C3E50;
+  background-color: #a3a9b4;
 }
 footer .footer-col {
   margin-bottom: 50px;
@@ -366,8 +466,8 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-success {
   color: white;
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  background-color: #fce602;
+  border-color:#fce602;
   font-weight: 700;
 }
 .btn-success:hover,
@@ -376,8 +476,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
   color: white;
-  background-color: #128f76;
-  border-color: #11866f;
+  background-color: #a3a9b4;
+  border-color: #a3a9b4;
 }
 .btn-success:active,
 .btn-success.active,
