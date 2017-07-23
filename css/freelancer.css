@@ -57,11 +57,11 @@ hr.star-light:after {
   color: white;
 }
 hr.star-primary {
-  border-color: #2C3E50;
+  border-color: #fce602;
 }
 hr.star-primary:after {
   background-color: white;
-  color: #2C3E50;
+  color: #fce602;
 }
 .img-centered {
   margin: 0 auto;
@@ -418,7 +418,7 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #18BC9C;
+  color: #fce602;
   background: white;
   border: solid 2px white;
 }
